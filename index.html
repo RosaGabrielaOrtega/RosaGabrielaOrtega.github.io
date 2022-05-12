@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Contenido Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/main.css">
+    <title>GE.Net</title>
+  </head>
+  <body>
+    
+    <!-- HEADER Y NAVBAR -->
+    <header class="container-fluid bg-primary d-flex justify-content-center p-3" >
+    </header>
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="/index.html">
+          <img src="/assests/logo.png" alt="" width="60" height="60" class="d-inline-block  mx-3">
+          <span class="text-primary fs-5 fw-bold mt-6 pt-3">GE.Net</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item"><a class="nav-link" href="#importancia">Importancia</a></li>
+            <li class="nav-item"><a class="nav-link" href="/dir/tecnologias.html">Tecnologías</a></li>
+            <li class="nav-item"><a class="nav-link" href="/dir/proyeccion.html">Proyección</a></li>
+            <li class="nav-item"><a class="nav-link" href="/dir/glosary.html">Glosario</a></li>
+          </ul>
+          <form class="d-flex">
+            <a href="#articulos"><button class="btn btn-outline-success me-3" type="button">Artículos</button></a>
+            <a href="/dir/usores.html"><button class="btn btn-outline-success me-3" type="button">Uso responsable</button></a>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- CARRUSEL -->
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        
+        <div class="carousel-item active" data-bs-interval="10000">
+          <a href="/dir/tecnologias.html"><img src="/assests/limpias.png" class="d-block w-100" alt="..."></a>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <a href="https://www.gob.mx/profepa/articulos/dia-mundial-de-la-energia?idiom=es"><img src="/assests/7.1.jpg" class="d-block w-100" alt="..."></a>
+        </div>
+        <div class="carousel-item">
+          <a href="https://www.forbes.com.mx/negocios-realizaran-encuentro-del-sector-de-energia-eolica-en-marzo/#:~:text=En%20M%C3%A9xico%2C%20la%20capacidad%20estimada,de%2013%2C000%20millones%20de%20d%C3%B3lares" target="_blank"><img src="/assests/energia-eolica.png" class="d-block w-100" alt="..."></a>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- IMPORTANCIA -->
+    <section class="d-flex flex-column justify-content-center align-items-center pt-5  text-center w-50 m-auto" id="importancia">
+      <h1 class="p-3 fs-2 border-top border-3">El desarrollo de las energías limpias es imprescindible para combatir el <span class="text-primary">cambio climático<span/><span class="text-dark"> y limitar sus efectos más devastadores.</span></h1>
+        <p class="p-3 fs-4 ">
+          El Consejo Nacional de Ciencia y Tecnología (<span class="text-primary">CONACYT</span>) en el área de Ciencias y Desarrollo (<span class="text-primary">CyD</span>) menciona que gran parte de la energía que se consume proviene a partir de la combustión de energéticos fósiles, y que se emiten contaminantes tales como óxidos de azufre (<span class="text-primary">SOx</span>), óxidos de nitrógeno (<span class="text-primary">NOx</span>), entre otros y material particulado (<span class="text-primary">MP</span>) que está constituido por materiales como polvos, ceniza, hollín, y más.
+        </p>
+        <p class="p-3  fs-4 border-bottom border-3" >
+           Las energías <span class="text-primary">renovables</span> son el presente y el futuro, ya que contribuyen al cuidado de nuestro planeta gracias a que son energías <span class="text-primary">inagotables</span> y que no afectan negativamente a nuestro entorno        
+        </p>   
+    </section>
+
+    <!-- ARTICULOS -->
+    <section class="w-100 mt-5" id="articulos">
+      <h2 class="text-center text-primary">Artículos</h2>
+      <div class="row w-75 mx-auto" id="servicios-fila-1">       
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+          <a href="/dir/dia-ener.html"><img src="./assests/img/art3.png" alt="desarrollo"   width="180" height="160"></a>
+            <div>
+              <h3 class="fs-5 mt-4 px-4 pb-1">Día mundial de la energía</h3>
+              <p class="px-4">Conoce más acerca de estas energías y su importancia.</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+          <a href="https://www.cyd.conacyt.gob.mx/?p=articulo&id=482" target="_blank"><img src="/assests/img/art4.png" alt="concepto" width="180" height="160"></a> 
+            <div>
+              <h3 class="fs-5 mt-4 px-4 pb-1 icono-wrap">Efecto ambiental y socioeconómico
+                de la producción de energía eléctrica</h3>
+              <p class="px-4">Todo lo que implica generar energía y su impacto social.</p>
+            </div>
+        </div>   
+      </div>
+      <div class="row w-75 mx-auto mb-5" id="servicios-fila-2">       
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start  my-5 icono-wrap">
+          <a href="https://www.gob.mx/agenda2030/articulos/7-energia-asequible-y-no-contaminante#:~:text=Metas%3A,mejora%20de%20la%20eficiencia%20energética" target="_blank"><img src="/assests/img/art1.png" alt="comunicaciones" width="180" height="160"></a>
+            <div>
+              <h3 class="fs-5 mt-4 px-4 pb-1">Objetivo 7 de la ONU</h3>
+              <p class="px-4">Energía asequible y no contaminante.</p>
+            </div>
+        </div>
+        <div class="col-lg-6 col-md-12 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+          <a href="https://app.cfe.mx/Aplicaciones/OTROS/Boletines/boletin?i=2383" target="_blank"><img src="/assests/img/art2.png" alt="seo" width="180" height="160"></a>
+            <div>
+              <h3 class="fs-5 mt-4 px-4 pb-1">CFE y tecnologías limpias</h3>
+              <p class="px-4">Conoce los esfuerzos que la CFE realiza en la transición a energías limpias.</p>
+            </div>
+        </div>   
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-light w-100  d-flex  align-items-center justify-content-center flex-wrap">
+      <p class="fs-5 px-3  pt-3">Contáctanos 👨🏽‍💻</p>
+      <div id="iconos" >
+          <a href="#"><i class="bi bi-envelope-fill text-dark"></i></a>
+          <a href="#"><i class="bi bi-github text-dark"></i></a>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>

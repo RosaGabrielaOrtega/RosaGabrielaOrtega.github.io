@@ -1,0 +1,12 @@
+.carousel-inner, .carouse-caption{
+    max-height: 29rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    margin-top: 35px;
+}
+

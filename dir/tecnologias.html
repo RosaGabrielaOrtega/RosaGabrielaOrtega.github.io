@@ -1,0 +1,233 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/main.css">
+    <title>Tecnologías</title>
+  </head>
+  <body>
+    <header class="container-fluid bg-primary d-flex justify-content-center p-3" >
+    </header>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="/index.html">
+            <img src="/assests/logo.png" alt="" width="60" height="60" class="d-inline-block  mx-3">
+            <span class="text-primary fs-5 fw-bold mt-6 pt-3">GE.Net</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="/index.html#importancia">Importancia</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-info" href="/dir/tecnologias.html">Tecnologías</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/dir/proyeccion.html">Proyección</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/dir/glosary.html">Glosario</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+                <a href="/index.html#articulos"><button class="btn btn-outline-success me-3" type="button">Artículos</button></a>
+                <a href="/dir/usores.html"><button class="btn btn-outline-success me-3" type="button">Uso responsable</button></a>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+     <!-- ARTICULO -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-8">
+              <!-- Post content-->
+              <article>
+                  <!-- Post header-->
+                  <header class="mb-4">
+                      <!-- Post title-->
+                      <h1 class="fw-bolder mb-1">Tecnologías para la generación de energía eléctrica</h1>
+                      <!-- Post meta content-->
+                      <div class="text-muted fst-italic mb-2">Posted on May 1, 2021 by Sergio Valera</div>
+                  </header>
+                  <section class="mb-5">
+                    <p class="fs-5 mb-4">Actualmente la gran mayoría de maquinas y aparatos funcionan con energía eléctrica, la cual es transformada produciendo luz, calor y movimiento. En México, el modelo energético actual está basado principalmente en el consumo de combustibles fósiles. </p>
+                    <p class="fs-5 mb-4">En la página web del Centro Nacional de Control de Energía se observa que el país obtiene la electricidad a través de 11 tipos de tecnologías distintas. A continuación, se hace la distinción entre energías limpias y no limpias, además se describe cada una detallamente.</p>
+                    <figure class="mb-4 col-lg-7"><div class="text-center"><img src="/assests/energias.svg" alt=".." class="rounded img-thumbnail"></div></figure>
+                    <h2 class="fw-bolder mb-4 mt-5">Energías no limpias</h2>
+                    <p class="fs-5 mb-4">Las energías limpias son fuentes de energía inagotables y crecientemente competitivas. Se diferencian de los combustibles fósiles principalmente en su diversidad, abundancia y potencial de aprovechamiento, pero sobre todo en que no producen emisiones contaminantes.</p>
+                    <div class="accordion" id="accordionExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            <figure><img class="me-3 mt-1" src="/assests/carbon.png" alt="..." /></figure> Carboeléctrica 
+                          </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            Mediante la quema del carbón se calientan grandes calderas de agua, la cual produce vapor y este a su vez es dirigido a una turbina donde gracias a la rotación es convertida a energía eléctrica.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            <figure><img class="me-3 mt-1" src="/assests/poder.png" alt="..." /> Ciclo Combinado
+                          </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            Esta tecnología combina la utilización de dos turbinas, una de gas y otra de vapor, para aumentar la eficiencia y producir más energía eléctrica. 
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            <figure><img class="me-3 mt-1" src="/assests/ventilador-de-motor.png" alt="..." /> Combustión Interna
+                          </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            Por medio de la quema de algún combustible (Gas, Diesel o Gasolina) se genera energía mecánica para ser convertida en energía eléctrica.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFour">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            <figure><img class="me-3 mt-1" src="/assests/termic.png" alt="..." /> Témica Convencional
+                          </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            Hace uso de una turbina de vapor para accionar los alternadores de la central eléctrica y así generar electricidad. 
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFive">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                            <figure><img class="me-3 mt-1" src="/assests/gas.png" alt="..." /> Turbo Gas
+                          </button>
+                        </h2>
+                        <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            Las centrales de turbo gas se caracterizan por el uso de gases de alta presión, siguiendo el mismo proceso empleado en la quema de carbón y ciclo combinado.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </section>
+                  <section class="mb-5">
+                    <h2 class="fw-bolder mb-4 mt-5">Energías Limpias</h2>
+                    <p class="fs-5 mb-4">Sistemas de producción de energía que excluyen cualquier tipo de contaminación, principalmente por emisión de gases de efecto invernadero, como el CO2, causantes del cambio climático.</p>
+                    <div class="accordion" id="accordionExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSix">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                            <figure><img class="me-3 mt-1" src="/assests/energia-hidroelectrica.png" alt="..." /> Hidroeléctrica
+                          </button>
+                        </h2>
+                        <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            La energía potencial que está acumulada en los saltos de agua se puede transformar en energía eléctrica, en las centrales Hidroeléctricas se aprovecha la energía de los ríos para accionar más turbinas que hacen girar a un generador eléctrico.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingSeven">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                            <figure><img class="me-3 mt-1" src="/assests/geothermal.png" alt="..." /> Geotermoeléctrica
+                          </button>
+                        </h2>
+                        <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            Aprovechando que parte del calor interno de la tierra (5000°C) se desplaza hacia la corteza terrestre; en algunas zonas del planeta, cercanas a la superficie, las aguas subterráneas pueden alcanzar temperaturas de ebullición, y por lo tanto, sirven para calefacción, o bien producir electricidad con turbinas de vapor.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingEight">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                            <figure><img class="me-3 mt-1" src="/assests/nuclear.png" alt="..." /> Nucleoeléctrica
+                          </button>
+                        </h2>
+                        <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            La producción de energía se logra mediante la transformación previa de la energía nuclear, un combustible nuclear (el uranio) y un reactor nuclear reemplazan a los combustibles a la caldera la central térmica. El reactor tiene un lugar la fisión del uranio que al liberar una gran cantidad de energía origina el calor preciso para la obtención del vapor de agua.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingNine">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                            <figure><img class="me-3 mt-1" src="/assests/eolica.png" alt="..." /></figure> Eólica
+                          </button>
+                        </h2>
+                        <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            Es la que se obtiene a través de viento, es decir, por medio de la utilización de la energía cinética, por el efecto de las corrientes de aire.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTen">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                            <figure><img class="me-3 mt-1" src="/assests/solar.png" alt="..." /> Fotovoltaica
+                          </button>
+                        </h2>
+                        <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            Utiliza la captación de la radiación solar para generar directamente la energía eléctrica.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingEleven">
+                          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEleven" aria-expanded="false" aria-controls="collapseEleven">
+                            <figure><img class="me-3 mt-1" src="/assests/biomasa.png" alt="..." /> Biomasa
+                          </button>
+                        </h2>
+                        <div id="collapseEleven" class="accordion-collapse collapse" aria-labelledby="headingEleven" data-bs-parent="#accordionExample">
+                          <div class="accordion-body">
+                            La biomasa, desde un punto de vista energético, se considera como el conjunto de la materia orgánica de origen vegetal o animal que se puede utilizar con fines energéticos. La biomasa incluye también los materiales procedentes de la transformación natural o artificial de la materia orgánica.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                  <h3 class="mt-5">Referencias</h3>
+                <p class="fs-6 mb-3"><i>Enríquez, G. (2014). Los conceptos básicos de la generación, transmisión, transformación y distribución de la energía eléctrica. México D.F.: Limusa.</i></p>
+                  
+              </article>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- FOOTER -->
+    <footer class="bg-light w-100  d-flex  align-items-center justify-content-center flex-wrap">
+      <p class="fs-5 px-3  pt-3">Contáctanos 👨🏽‍💻</p>
+      <div id="iconos" >
+          <a href="#"><i class="bi bi-envelope-fill text-dark"></i></a>
+          <a href="#"><i class="bi bi-github text-dark"></i></a>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
+</html>
